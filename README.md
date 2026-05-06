@@ -1,7 +1,7 @@
 # 🎓 SitasiInstan
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version: 1.2](https://img.shields.io/badge/Version-1.2-green.svg)](#)
+[![Version: 1.2](https://img.shields.io/badge/Version-1.3-green.svg)](#)
 [![Status: Development](https://img.shields.io/badge/Status-In--Progress-blue.svg)](#)
 
 **SitasiInstan** adalah ekstensi browser yang dirancang khusus untuk membantu mahasiswa Indonesia dalam menyusun sitasi dan daftar pustaka karya ilmiah secara cepat dan akurat. Proyek ini lahir dari pengamatan bahwa banyak mahasiswa masih merasa kesulitan, bingung, atau terbebani saat harus menggunakan tools kompleks seperti Mendeley atau Zotero.
@@ -112,31 +112,6 @@ Masih di `chrome://extensions/` → klik **Details** pada kartu SitasiInstan →
 Berikut adalah tampilan dari ekstensi **SitasiInstan**:
 
 ![Tampilan Ekstensi](images/preview-cite.png)
-
----
-
-## 📋 Changelog
-
-### v1.2 — PDF Support & Peningkatan Akurasi
-- ✅ Tambah dukungan baca file PDF (lokal & online) menggunakan PDF.js
-- ✅ Deteksi judul PDF berdasarkan ukuran font terbesar (lebih akurat)
-- ✅ Deteksi Volume & Nomor dari breadcrumb halaman OJS dan teks PDF
-- ✅ Tambah field Volume & Nomor di form (opsional, hanya muncul di mode jurnal)
-- ✅ Field Volume & Nomor masuk ke output sitasi APA dan Chicago
-- ✅ Ekspor .RIS kini menyertakan field VL (volume) dan IS (issue)
-- ✅ Perbaikan casing nama institusi — singkatan seperti UIN, IAIN, UGM kini tetap kapital
-- ✅ Validasi metadata PDF yang tidak valid (nama merek laptop, path file, dll.) diabaikan otomatis
-- 🐛 Fix: `popup.js` yang sebelumnya di-load dua kali di `popup.html`
-
-### v1.1 — Repository Support & Multi-Author
-- ✅ Deteksi otomatis mode jurnal vs. repository
-- ✅ Dukungan multi-penulis dengan format APA dan Chicago yang benar
-- ✅ Dark mode dengan penyimpanan preferensi
-- ✅ Ekspor file .RIS
-
-### v1.0 — Rilis Awal
-- ✅ Generator sitasi APA dan Chicago dasar
-- ✅ Ekstraksi metadata dari halaman web
 
 ---
 
